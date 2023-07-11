@@ -55,7 +55,7 @@ function App(props) {
      
 
 
-      const response = await fetch("http://api.weatherapi.com/v1/current.json?key=d6611612e27843d59f040736230907&lang=es&q=" + city + "&aqi=no")
+      const response = await fetch("https://api.weatherapi.com/v1/current.json?key=d6611612e27843d59f040736230907&lang=es&q=" + city + "&aqi=no")
       const data = await response.json();
 
       //console.log("http://api.weatherapi.com/v1/current.json?key=1e64cf691a4b46dfb9144720232305&lang=es&q=" + city + "%20" + country)
