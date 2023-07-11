@@ -24,10 +24,12 @@ function App(props) {
     icon: ""
   })
 
+
+  /*
   useEffect(()=>{
     console.log("render")
   }, [])
-
+*/
 
   const onSubmit = async (e) => {
 
@@ -64,7 +66,6 @@ function App(props) {
 
       if (data.error) throw { message: data.error.message }
 
-      console.log(weather.icon)
 
 
 
